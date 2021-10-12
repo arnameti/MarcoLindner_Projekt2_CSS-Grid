@@ -1,7 +1,7 @@
-:root{
-  --myBlack-color: #0F0A0A;
-  --myWhite-color: #F5EFED;
-  --myBlue-color: #2292A4;
+:root {
+  --myBlack-color: #0f0a0a;
+  --myWhite-color: #f5efed;
+  --myBlue-color: #2292a4;
   --myYellow-color: #bdbf09;
   --myOrange-color: #d96c06;
 }
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   font-weight: 700;
   font-display: swap;
   color: var(--myWhite-color);

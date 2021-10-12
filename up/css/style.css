@@ -1,7 +1,7 @@
 :root {
-  --myBlack-color: #0F0A0A;
-  --myWhite-color: #F5EFED;
-  --myBlue-color: #2292A4;
+  --myBlack-color: #0f0a0a;
+  --myWhite-color: #f5efed;
+  --myBlue-color: #2292a4;
   --myYellow-color: #bdbf09;
   --myOrange-color: #d96c06; }
 
@@ -17,7 +17,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   font-weight: 700;
   font-display: swap;
   color: var(--myWhite-color); }
@@ -27,3 +27,31 @@ li {
 
 a {
   text-decoration: none; }
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(6, min-content);
+  grid-template-columns: repeat(12, 1fr); }
+
+.header {
+  grid-column: 1 / -1;
+  background-color: var(--myBlue-color); }
+
+.navigation {
+  grid-column: 1 / -1;
+  background-color: #000; }
+
+.main {
+  grid-column: 1 / -1; }
+
+.rabatt {
+  grid-column: 1 / -1;
+  background-color: var(--myBlack-color); }
+
+.info {
+  grid-column: 1 / -1;
+  background-color: var(--myBlue-color); }
+
+.footer {
+  grid-column: 1 / -1;
+  background-color: #000; }
