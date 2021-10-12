@@ -12,7 +12,34 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">HEADER</div>
+      <div class="header">
+        <div class="header__phone">
+          <svg class="header__phone-icon">
+            <use xlink:href="../img/sprite.svg#icon-old-phone"></use>
+          </svg>
+          <p class="header__number">+49 012345678</p>
+        </div>
+        <p class="header__text">
+          Wir sind 24h für sie erreichbar
+        </p>
+        <form class="header__search" action="#">
+          <input class="header__input" type="text" placeholder="suchen nach..."/>
+          <button class="header__button" type="submit">
+            <svg class="header__button-icon">
+             <use xlink:href="../img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <div class="header__shopping">
+          <svg class="header__shopping-icon">
+            <use xlink:href="../img/sprite.svg#icon-shopping-cart"></use>
+          </svg>
+          <p class="header__shopping-text">
+            Zur Kasse
+          </p>
+        </div>
+      </div>
+
       <div class="navigation">NAVIGATION</div>
       <div class="main">MAIN</div>
       <div class="rabatt">RABATT</div>
