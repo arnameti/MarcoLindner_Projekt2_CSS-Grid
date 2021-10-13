@@ -79,6 +79,18 @@
   }
 
   &__shopping-text {
+
+    & a:link,
+    & a:visited {
+      color: #fff;
+
+      transition: all .2s;
+    }
+    & a:hover,
+    & a:active {
+      color: var(--myOrange-color);
+    }
+
   }
 }
 
